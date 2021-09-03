@@ -5,6 +5,7 @@ import About from '../views/About.vue';
 import Jobs from '../views/jobs/Jobs.vue'
 import JobDetails from '../views/jobs/JobDetails.vue'
 import NotFound from '../views/NotFound.vue'
+import Signin from '../views/Signin.vue'
 
 Vue.use(VueRouter);
 
@@ -23,6 +24,11 @@ const routes = [
     path: "/jobs",
     name: "Jobs",
     component: Jobs,
+  },
+  {
+    path: "/signin",
+    name: "Signin",
+    component: Signin,
   },
   {
     path: "/jobs/:id",

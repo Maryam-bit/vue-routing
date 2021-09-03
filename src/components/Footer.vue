@@ -41,7 +41,7 @@ export default {
 <style>
 .footer-container{
     position: fixed;
-    bottom: 0;
+    bottom: 0px !important;
     width: 100%;
     background-color: #2d9ea8;
     color:white;

@@ -1,0 +1,43 @@
+
+input{
+    border: none;
+    /* background-color: white; */
+    background-color: #f5f7f7;
+    box-shadow: 0 4px 2px -2px #c5c7c5,
+    0px 0px 5px #c5c7c5,
+    -4px -4px 4px white,
+    inset 5px 5px 4px white;
+    border-radius: 5px;
+    color: grey;
+    width: 90%;
+    padding: 10px 10px 10px 10px;
+    margin: 1rem;
+    }
+    
+    input::placeholder{
+     color: #aabdc0;;
+    }
+    
+    input:focus{
+     outline: none;
+    }
+    
+    button{
+     border: none;
+     border-radius: 5px;
+     background-color:#2d9ea8;;
+    color: white;
+    padding: 7px 15px 7px 15px;
+    margin: 0.5rem !important;
+    }
+    
+    button:hover{
+     outline: none;
+    }
+    .card{
+    background-color: #f5f7f7;
+    }
+    .card-header{
+        font-size: 35px;
+        font-weight: 900;
+    }

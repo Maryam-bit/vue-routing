@@ -17,6 +17,9 @@
           <b-nav-item
             ><router-link :to="{ name: 'Jobs' }">Jobs</router-link></b-nav-item
           >
+          <b-nav-item
+            ><router-link :to="{ name: 'Signin' }">Signin</router-link></b-nav-item
+          >
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
